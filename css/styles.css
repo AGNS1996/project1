@@ -65,5 +65,17 @@ main {
 footer {
     color: gray;
     margin-top: auto;
-    background: rgb(20, 20, 50);
+    background: black;
+    text-align: center;
+  }
+
+.red-social a {
+    display: inline-block;
+    margin: 10px 20px 5px 20px;
 }
+
+.instrumentos a {
+    display: inline-block;
+    margin: 20px;
+}
+
