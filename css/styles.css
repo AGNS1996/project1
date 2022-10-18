@@ -55,11 +55,80 @@ header nav .menu .links a:hover {
     transform: scale(1.05, 1.05);
 }
 
-main {
-    width: 90%;
-    margin: 40px auto;
-    padding: 10px;
+main div {
     text-align: center;
+}
+
+.contenedor {
+    width: 75vw;
+    margin: auto;
+}
+
+main div img {
+    width: 70%;
+}
+
+main h1 {
+    text-align: center;
+}
+
+h1+h2 {
+    text-align: center;
+}
+
+main p {
+    text-align: center;
+}
+
+main section p {
+    text-align: justify;
+}
+
+.instrumentos img {width: 100%;}
+
+section {
+    max-width: 1140px;
+    min-width: 320px;
+    width: 100%;
+    padding: 45px 20px;
+    margin: 0 auto;
+}
+
+.contenedor2,
+.contenedor3,
+.contenedor4,
+.contenedor5,
+.contenedor6,
+.contenedor7 {
+    width: 625px;
+}
+
+.videoResponsive,
+.videoResponsive2,
+.videoResponsive3,
+.videoResponsive4,
+.videoResponsive5,
+.videoResponsive6 {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    padding-top: 56.25%;
+}
+
+.videoResponsive iframe,
+.videoResponsive2 iframe,
+.videoResponsive3 iframe,
+.videoResponsive4 iframe,
+.videoResponsive5 iframe,
+.videoResponsive6 iframe {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0%;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    border-radius: 15px;
 }
 
 footer {
@@ -67,7 +136,7 @@ footer {
     margin-top: auto;
     background: black;
     text-align: center;
-  }
+}
 
 .red-social a {
     display: inline-block;
@@ -78,4 +147,3 @@ footer {
     display: inline-block;
     margin: 20px;
 }
-
