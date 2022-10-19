@@ -57,7 +57,7 @@ header nav .menu .links a:hover {
 
 main {
     width: 90%;
-    margin: 40px auto;
+    margin: 20px auto;
     padding: 10px;
     text-align: center;
 }
@@ -79,3 +79,34 @@ footer {
     margin: 20px;
 }
 
+.titulo-instrumento {
+    text-align: center;
+    font-size: 45px;
+    text-decoration: underline;
+    color: red;
+}
+
+.subtitulos-instrumentos{
+    padding: 20px;
+    text-align: center;
+    font-size: 30px;
+}
+
+.parrafos-instrumentos {
+    padding-left: 10% ;
+    padding-right: 10% ;
+    padding-bottom: 1%;
+    text-align: justify;
+    font-size: 20px;
+}
+
+.ul-instrumentos {
+    padding-left: 12% ;
+    padding-right: 10% ;
+    text-align: justify;
+    font-size: 20px;
+}
+
+.ul-instrumentos li {
+    padding-bottom: 1ex;
+}
